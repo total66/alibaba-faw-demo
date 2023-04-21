@@ -1,0 +1,15 @@
+<mapper namespace="com.ebanma.cloud.mapper.UserMapper">
+    <select id="findAll" resultType="com.ebanma.cloud.domain.entity.UserDO">
+        select * from tb_user
+    </select>
+
+    <select id="findByCondition" resultType="com.ebanma.cloud.domain.entity.UserDO"
+            parameterType="com.ebanma.cloud.domain.entity.UserDO">
+        select * from tb_user where id = #{id} and username = #{username}
+    </select>
+
+    <delete id="deleteByUserName" parameterType="com.ebanma.cloud.domain.entity.UserDO">
+        delete from tb_user where username = #{username}
+    </delete>
+
+</mapper>

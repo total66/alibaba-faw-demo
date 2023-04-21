@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/java-native/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-native/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-orm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-orm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-summer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-summer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-webchat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-test-orm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-test-orm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-test-summer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-test-summer/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
