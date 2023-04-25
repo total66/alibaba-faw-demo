@@ -2,7 +2,7 @@ package com.ebanma.cloud.threadLocal;
 
 import java.util.concurrent.TimeUnit;
 
-public class threadLocalDemo {
+public class ThreadLocalDemo {
     static ThreadLocal<Person> tl = new ThreadLocal<Person>();
     
     public static void main(String[] args) {
