@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-test-orm" />
         <module name="user-test-summer" />
         <module name="java-webchat" />
-        <module name="java-orm" />
+        <module name="rpc-v1-api" />
         <module name="java-summer" />
+        <module name="user-test-orm" />
+        <module name="rpc-v1-provider" />
+        <module name="rpc-v1-consumer" />
+        <module name="java-orm" />
         <module name="java-native" />
       </profile>
     </annotationProcessing>
@@ -19,6 +22,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java-summer" options="-parameters" />
       <module name="java-webchat" options="-parameters" />
+      <module name="rpc-v1-api" options="-parameters" />
+      <module name="rpc-v1-consumer" options="-parameters" />
+      <module name="rpc-v1-provider" options="-parameters" />
     </option>
   </component>
 </project>

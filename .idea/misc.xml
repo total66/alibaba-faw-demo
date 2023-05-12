@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/java-summer/pom.xml" />
         <option value="$PROJECT_DIR$/user-test-summer/pom.xml" />
         <option value="$PROJECT_DIR$/java-webchat/pom.xml" />
+        <option value="$PROJECT_DIR$/java-rpc-v1/pom.xml" />
       </list>
     </option>
   </component>

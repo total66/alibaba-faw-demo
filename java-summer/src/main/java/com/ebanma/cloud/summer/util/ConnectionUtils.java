@@ -16,7 +16,7 @@ public class ConnectionUtils {
           */  
         Connection connection = threadLocal.get();  
         if(connection == null) {  
-            // 从连接池拿连接并绑定到线程  
+            // 从连接池拿连接并绑定到线程
             connection = DruidUtils.getInstance().getConnection();  
             // 绑定到当前线程  
             threadLocal.set(connection);  

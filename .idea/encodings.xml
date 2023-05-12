@@ -5,6 +5,11 @@
     <file url="file://$PROJECT_DIR$/java-native/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-orm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-orm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v1/rpc-v1-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v1/rpc-v1-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v1/rpc-v1-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-summer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-summer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-webchat/src/main/java" charset="UTF-8" />
