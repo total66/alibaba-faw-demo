@@ -10,9 +10,14 @@
         <module name="java-webchat" />
         <module name="rpc-v1-api" />
         <module name="java-summer" />
+        <module name="rpc-spring-boot-autoconfigure" />
         <module name="user-test-orm" />
-        <module name="rpc-v1-provider" />
+        <module name="rpc-v2-consumer" />
+        <module name="rpc-v2-provider" />
         <module name="rpc-v1-consumer" />
+        <module name="rpc-spring-boot-starter" />
+        <module name="rpc-v2-api" />
+        <module name="rpc-v1-provider" />
         <module name="java-orm" />
         <module name="java-native" />
       </profile>
@@ -25,6 +30,8 @@
       <module name="rpc-v1-api" options="-parameters" />
       <module name="rpc-v1-consumer" options="-parameters" />
       <module name="rpc-v1-provider" options="-parameters" />
+      <module name="rpc-v2-consumer" options="-parameters" />
+      <module name="rpc-v2-provider" options="-parameters" />
     </option>
   </component>
 </project>

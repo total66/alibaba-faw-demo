@@ -11,6 +11,7 @@ import lombok.Data;
 public class UserInfoDTO {
 
     private Integer id;
+
     private String name;
 
 }

@@ -10,6 +10,18 @@
     <file url="file://$PROJECT_DIR$/java-rpc-v1/rpc-v1-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-rpc-v1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-rpc-v1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-spring-boot-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/rpc-v2-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-rpc-v2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-summer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-summer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-webchat/src/main/java" charset="UTF-8" />
