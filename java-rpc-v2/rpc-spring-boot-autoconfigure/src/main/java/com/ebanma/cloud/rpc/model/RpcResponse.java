@@ -1,12 +1,26 @@
 package com.ebanma.cloud.rpc.model;
 
 import com.ebanma.cloud.rpc.model.constant.ConstantPool;
-import lombok.Data;
 
 import java.io.Serializable;
 
-@Data
 public class RpcResponse implements Serializable {
+
+    public String getRequestId() {
+        return requestId;
+    }
+
+    public void setRequestId(String requestId) {
+        this.requestId = requestId;
+    }
+
+    public Object getReturnValue() {
+        return returnValue;
+    }
+
+    public void setReturnValue(Object returnValue) {
+        this.returnValue = returnValue;
+    }
 
     private String requestId;
 

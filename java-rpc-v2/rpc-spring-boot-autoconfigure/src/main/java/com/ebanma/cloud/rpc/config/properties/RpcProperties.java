@@ -4,8 +4,47 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "rpc")
-@Data
 public class RpcProperties {
+
+    public String getRegisterAddress() {
+        return registerAddress;
+    }
+
+    public void setRegisterAddress(String registerAddress) {
+        this.registerAddress = registerAddress;
+    }
+
+    public Integer getServerPort() {
+        return serverPort;
+    }
+
+    public void setServerPort(Integer serverPort) {
+        this.serverPort = serverPort;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public String getConsumerPath() {
+        return consumerPath;
+    }
+
+    public void setConsumerPath(String consumerPath) {
+        this.consumerPath = consumerPath;
+    }
+
+    public String getProviderPath() {
+        return providerPath;
+    }
+
+    public void setProviderPath(String providerPath) {
+        this.providerPath = providerPath;
+    }
 
     /**
      * 服务注册中心地址

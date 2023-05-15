@@ -4,8 +4,31 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "rpc.server")
-@Data
 public class RpcServerProperties {
+
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }
+
+    public Integer getProviderPort() {
+        return providerPort;
+    }
+
+    public void setProviderPort(Integer providerPort) {
+        this.providerPort = providerPort;
+    }
+
+    public Integer getWeight() {
+        return weight;
+    }
+
+    public void setWeight(Integer weight) {
+        this.weight = weight;
+    }
 
     /**
      * 服务提供者名称

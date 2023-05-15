@@ -14,8 +14,59 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Data
 public class NettyClientGroup implements ApplicationContextAware {
+
+    public Map<String, NettyClientBizGroup> getProviders() {
+        return providers;
+    }
+
+    public void setProviders(Map<String, NettyClientBizGroup> providers) {
+        this.providers = providers;
+    }
+
+    public ApplicationContext getApplicationContext() {
+        return applicationContext;
+    }
+
+    public ZKServer getZkServer() {
+        return zkServer;
+    }
+
+    public void setZkServer(ZKServer zkServer) {
+        this.zkServer = zkServer;
+    }
+
+    public RpcClientProperties getRpcClientProperties() {
+        return rpcClientProperties;
+    }
+
+    public void setRpcClientProperties(RpcClientProperties rpcClientProperties) {
+        this.rpcClientProperties = rpcClientProperties;
+    }
+
+    public RpcProperties getRpcProperties() {
+        return rpcProperties;
+    }
+
+    public void setRpcProperties(RpcProperties rpcProperties) {
+        this.rpcProperties = rpcProperties;
+    }
+
+    public boolean isHasInit() {
+        return hasInit;
+    }
+
+    public void setHasInit(boolean hasInit) {
+        this.hasInit = hasInit;
+    }
+
+    public String getConsumerName() {
+        return consumerName;
+    }
+
+    public void setConsumerName(String consumerName) {
+        this.consumerName = consumerName;
+    }
 
     private ApplicationContext applicationContext;
 

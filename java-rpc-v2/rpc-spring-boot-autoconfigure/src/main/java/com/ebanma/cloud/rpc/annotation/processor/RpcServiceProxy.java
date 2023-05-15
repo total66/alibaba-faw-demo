@@ -15,6 +15,29 @@ import java.util.Map;
 import java.util.UUID;
 
 public class RpcServiceProxy<T> implements InvocationHandler {
+    public Class<T> getProxyInterface() {
+        return proxyInterface;
+    }
+
+    public void setProxyInterface(Class<T> proxyInterface) {
+        this.proxyInterface = proxyInterface;
+    }
+
+    public NettyClientGroup getNettyClientGroup() {
+        return nettyClientGroup;
+    }
+
+    public void setNettyClientGroup(NettyClientGroup nettyClientGroup) {
+        this.nettyClientGroup = nettyClientGroup;
+    }
+
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
 
     private Class<T> proxyInterface;
     // 这里可以维护一个缓存，存这个接口的方法抽象的对象

@@ -16,8 +16,71 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Objects;
 
-@Data
 public class ZKServer implements ApplicationContextAware {
+
+    public RpcProperties getRpcProperties() {
+        return rpcProperties;
+    }
+
+    public void setRpcProperties(RpcProperties rpcProperties) {
+        this.rpcProperties = rpcProperties;
+    }
+
+    public Watcher getWatcher() {
+        return watcher;
+    }
+
+    public void setWatcher(Watcher watcher) {
+        this.watcher = watcher;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public String getProviderPath() {
+        return providerPath;
+    }
+
+    public void setProviderPath(String providerPath) {
+        this.providerPath = providerPath;
+    }
+
+    public String getConsumerPath() {
+        return consumerPath;
+    }
+
+    public void setConsumerPath(String consumerPath) {
+        this.consumerPath = consumerPath;
+    }
+
+    public ZooKeeper getZk() {
+        return zk;
+    }
+
+    public void setZk(ZooKeeper zk) {
+        this.zk = zk;
+    }
 
     private RpcProperties rpcProperties;
     private Watcher watcher;
