@@ -1,0 +1,7 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    druid:
+#      password: NerdmsPassword08#
+#      url: jdbc:mysql://10.124.56.68:13308/cyxdms_repair?useSSL=false&useUnicode=true&characterEncoding=utf8
+#      username: dms

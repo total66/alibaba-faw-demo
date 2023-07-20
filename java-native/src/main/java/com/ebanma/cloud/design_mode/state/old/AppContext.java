@@ -1,4 +1,4 @@
-package com.ebanma.cloud.design_mode.state;
+package com.ebanma.cloud.design_mode.state.old;
 /**
  * 所有的状态的集合，赋予初始状态，在其他状态下的操作会改变当前状态
  * 每个单独的状态里都有该类作为属性

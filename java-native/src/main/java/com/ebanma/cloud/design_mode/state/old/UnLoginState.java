@@ -1,6 +1,4 @@
-package com.ebanma.cloud.design_mode.state;
-
-import java.util.Random;
+package com.ebanma.cloud.design_mode.state.old;
 
 public class UnLoginState extends UserState {
 
